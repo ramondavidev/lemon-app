@@ -10,7 +10,7 @@ const targets = ["chrome >= 87", "edge >= 88", "firefox >= 78", "safari >= 14"];
 module.exports = withZephyr()({
   context: __dirname,
   entry: {
-    main: "./src/main.tsx",
+    main: "./src/main.jsx",
   },
   devServer: {
     port: 3001,
@@ -23,8 +23,8 @@ module.exports = withZephyr()({
         "./App": "./src/App",
       },
       shared: {
-        react: { singleton: true },
-        "react-dom": { singleton: true },
+        react: { singleton: true, eager: true },
+        "react-dom": { singleton: true, eager: true },
       },
     }),
     new rspack.HtmlRspackPlugin({
