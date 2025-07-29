@@ -1,0 +1,23 @@
+{
+  "name": "host-app",
+  "version": "1.0.0",
+  "description": "Host application with Module Federation",
+  "scripts": {
+    "dev": "rspack serve",
+    "build": "rspack build",
+    "preview": "rspack preview"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "zephyr-webpack-plugin": "^0.0.56"
+  },
+  "devDependencies": {
+    "@rspack/cli": "^1.4.10",
+    "@rspack/core": "^1.4.10",
+    "@rspack/plugin-react-refresh": "^1.4.3",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "react-refresh": "^0.17.0"
+  }
+}
