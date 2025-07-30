@@ -39,3 +39,54 @@
 .read-the-docs {
   color: #888;
 }
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.title .zephyr {
+  color: #0077b6;
+  font-weight: 700;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.title .mf {
+  color: #0077b6;
+  font-weight: 700;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.lemon-button {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  gap: 10px;
+  font-size: 1rem;
+  padding: 0.6em 1.2em;
+  border: none;
+  background-color: #fefefe;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.lemon-button:hover {
+  background-color: #f1f1f1;
+}
+
+.lemon-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.footer {
+  margin-top: 2rem;
+  font-size: 1rem;
+  color: #555;
+}
