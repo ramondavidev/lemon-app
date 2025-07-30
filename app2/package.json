@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Remote application with Module Federation",
   "scripts": {
-    "dev": "rspack serve",
-    "build": "rspack build",
+    "dev": "rspack serve --config rspack.config.js",
+    "build": "rspack build --config rspack.config.js",
     "preview": "rspack preview"
   },
   "dependencies": {

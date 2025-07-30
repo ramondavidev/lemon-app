@@ -3,14 +3,17 @@
   "version": "1.0.0",
   "description": "Host application with Module Federation",
   "scripts": {
-    "dev": "rspack serve",
-    "build": "rspack build",
+    "dev": "rspack serve --config rspack.config.js",
+    "build": "rspack build --config rspack.config.js",
     "preview": "rspack preview"
   },
   "dependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "zephyr-webpack-plugin": "^0.0.56"
+  },
+  "zephyr:dependencies": {
+    "remote": "workspace:*"
   },
   "devDependencies": {
     "@rspack/cli": "^1.4.10",
